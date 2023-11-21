@@ -14,13 +14,26 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbarAttribute d-flex row g-4">
+    <nav class="me-auto mb-2 mb-lg-0 navbar navbarAttribute d-flex row g-4">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./resources/Group 2.png" alt="" width="239" height="32" />
+          <img
+            class="img-fluid"
+            src="./resources/Group 2.png"
+            alt=""
+            width="239"
+            height="32"
+          />
         </a>
 
         <!-- options -->
@@ -184,7 +197,7 @@
     <!-- header er por er section -->
     <section>
       <div style="border: 1px solid blue" class="d-flex" width="100%">
-        <div style="border: 1px solid green" class="mt-2 col-md-6">
+        <div class="mt-2 col-md-6">
           <div class="col-md-4 d-flex">
             <img src="./resources/ipad.png" alt="" width="300" height="200" />
             <div class="col-md-1"></div>
@@ -227,7 +240,7 @@
           </div>
         </div>
 
-        <div style="border: 1px solid red" class="mac-back col-md-6">
+        <div class="mac-back col-md-6">
           <div class="d-flex">
             <div class="text-side col-md-5 p-4">
               <div class="d-flex">
@@ -257,6 +270,301 @@
         </div>
       </div>
     </section>
+    <!-- Category -->
+    <section class="container">
+      <div class="mt-5 d-flex">
+        <div class="col-md-10">
+          <h5 class="card-title">Browse By Category</h5>
+        </div>
+        <div class="col-md-3 d-flex justify-content-end">
+          <img src="./resources/Arrow2.svg" alt="" width="32" height="32" />
+          <img src="./resources/Arrow.svg" alt="" width="32" height="32" />
+        </div>
+      </div>
+      <!-- category list -->
+      <div class="mx-2 p-2 d-flex category_list">
+        <div class="card mt-3 category">
+          <img
+            src="./resources/Phones.svg"
+            class="card-img-top mt-4"
+            alt="..."
+            width="48px"
+            height="48px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Phone</h5>
+          </div>
+        </div>
+        <div class="card mt-3 category">
+          <img
+            src="./resources/icons8-smart-watch-50.png"
+            class="card-img-top mt-5"
+            alt="..."
+            width="48px"
+            height="48px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Smart watch</h5>
+          </div>
+        </div>
+        <div class="card mt-3 category">
+          <img
+            src="./resources/Cameras.svg"
+            class="card-img-top mt-4"
+            alt="..."
+            width="48px"
+            height="48px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cameras</h5>
+          </div>
+        </div>
+        <div class="card mt-3 category">
+          <img
+            src="./resources/Computers.svg"
+            class="card-img-top mt-4"
+            alt="..."
+            width="48px"
+            height="48px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cameras</h5>
+          </div>
+        </div>
+        <div class="card mt-3 category">
+          <img
+            src="./resources/Headphones.svg"
+            class="card-img-top mt-4"
+            alt="..."
+            width="48px"
+            height="48px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Headphones</h5>
+          </div>
+        </div>
+        <div class="card mt-3 category">
+          <img
+            src="./resources/Gaming.svg"
+            class="card-img-top mt-4"
+            alt="..."
+            width="48px"
+            height="48px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Games</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="container">
+      <!-- upper part -->
+      <div class="mt-5 d-flex">
+        <div class="col-md-5 d-flex mx-3 p-3 productsMenu">
+          <h5 class="product_title">New Arrival</h5>
+          <h5 class="product_subtext">Bestseller</h5>
+          <h5 class="product_subtext">Featured Products</h5>
+        </div>
+      </div>
+      <!-- card section -->
+      <div style="border: 1px solid red" class="cardHolder container d-flex">
+        <div class="Card" style="width: 18rem">
+          <img
+            src="./resources/Favorite_duotone.png"
+            class="justify-content-end"
+            width="32px"
+            height="32px"
+          />
+          <img
+            src="./resources/Iphone 14 pro 1-2.png"
+            class="mt-5"
+            alt="..."
+            width="60%"
+          />
+          <div class="card-body">
+            <h5 class="productDescriptionTitle">
+              Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)
+            </h5>
+            <p class="productDescriptionPrice">$900</p>
+            <a href="#" class="bottonProperty btn-dark">Buy Now</a>
+          </div>
+        </div>
+        <div class="Card" style="width: 18rem">
+          <img
+            src="./resources/Favorite_duotone.png"
+            class="justify-content-end"
+            width="32px"
+            height="32px"
+          />
+          <img
+            src="./resources/Iphone 14 pro 1-3.png"
+            class="mt-5"
+            alt="..."
+            width="67%"
+          />
+          <div class="card-body">
+            <h5 class="productDescriptionTitle">
+              Blackmagic Pocket Cinema Camera 6k
+            </h5>
+            <p class="productDescriptionPrice">$2535</p>
+            <a href="#" class="bottonProperty btn-dark">Buy Now</a>
+          </div>
+        </div>
+        <div class="Card" style="width: 18rem">
+          <img
+            src="./resources//Favorite_duotone1.png"
+            class="justify-content-end"
+            width="32px"
+            height="32px"
+          />
+          <img
+            src="./resources/Iphone 14 pro 1-1.png"
+            class="mt-5"
+            alt="..."
+            width="60%"
+          />
+          <div class="card-body">
+            <h5 class="productDescriptionTitle">
+              Apple Watch Series 9 GPS 41mm Starlight Aluminium Case
+            </h5>
+            <p class="productDescriptionPrice">$399</p>
+            <a href="#" class="bottonProperty btn-dark">Buy Now</a>
+          </div>
+        </div>
+        <div
+          style="border: 1px solid rgb(255, 0, 76)"
+          class="Card"
+          style="width: 18rem"
+        >
+          <img
+            src="./resources/Favorite_duotone.png"
+            class="ml-3 justify-content-end"
+            width="32px"
+            height="32px"
+          />
+          <img
+            src="./resources/Iphone 14 pro 1.png"
+            class="mt-5"
+            alt="..."
+            width="75%"
+          />
+          <div class="card-body">
+            <h5 class="productDescriptionTitle">AirPods Max Silver</h5>
+            <p class="productDescriptionPrice">$549</p>
+            <a href="#" class="bottonProperty btn-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sale section -->
+    <section
+      style="border: 1px solid rgb(255, 0, 76)"
+      class="p-2 saleBackground d-flex"
+    >
+      <div class="col-md-3 mt-4">
+        <img
+          class="imgset mt-4"
+          src="./resources/image 191.png"
+          alt=""
+          srcset=""
+          width="60%"
+        />
+      </div>
+      <div
+        style="border: 1px solid blue"
+        class="sales align-items-center col-md-5"
+      >
+        <div class="d-flex">
+          <h2 class="sales-title">11.11</h2>
+          <p class="sales-title1">Sales</p>
+        </div>
+        <div class="col-md-4 saleDescribtion">
+          <p>
+            A sale with good deals and offering and more. Stay tuned to find
+            more deals with us.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <img
+          class="imgset1 mt-4"
+          src="./resources/jbl_jr_310bt_blue 1.png"
+          alt=""
+          srcset=""
+          width="60%"
+        />
+      </div>
+    </section>
+    <!-- footer -->
+    <footer style="border: 1px solid blue" class="footer">
+      <div class="d-flex">
+        <div class="col-md-2">
+          <img src="./resources/Group 2.png" alt="" srcset="" width="80%" />
+        </div>
+        <div class="col-md-2 d-flex footerIcon">
+          <img
+            src="./resources/Facebook.svg"
+            alt=""
+            srcset=""
+            width="16px"
+            height="16px"
+          />
+          <img
+            src="./resources/Twitter.svg"
+            alt=""
+            srcset=""
+            width="16px"
+            height="16px"
+          />
+          <img
+            src="./resources/Tiktok.svg"
+            alt=""
+            srcset=""
+            width="16px"
+            height="16px"
+          />
+          <img
+            src="./resources/Instagram.svg"
+            alt=""
+            srcset=""
+            width="16px"
+            height="16px"
+          />
+        </div>
+        <div class="mx-3 col-md-2 titleFooter">
+          <h4>Services</h4>
+          <ul
+            style="list-style-type: none; padding-inline-start: 0"
+            class="list"
+          >
+            <li>Bonus program</li>
+            <li>Gift cards</li>
+            <li>Credit and payment</li>
+            <li>Service contracts</li>
+            <li>Non-cash account</li>
+            <li>Payment</li>
+          </ul>
+        </div>
+        <div class="col-md-4 titleFooter">
+          <h4>Assistance to the buyer</h4>
+          <ul
+            style="list-style-type: none; padding-inline-start: 0"
+            class="list"
+          >
+            <li>Find an order</li>
+            <li>Terms of delivery</li>
+            <li>Exchange and return of goods</li>
+            <li>Guarantee</li>
+            <li>Frequently asked questions</li>
+            <li>Terms of use of the site</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
     <!-- jsBootstrap link -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
